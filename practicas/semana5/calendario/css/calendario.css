@@ -1,0 +1,44 @@
+
+td, th {
+	border: 2px solid black;
+	padding: 10px;
+	background-color: white;
+}
+
+#calendario {
+	margin: auto;
+	width: 80%;	
+}
+
+#encabezado {
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+#anterior {
+	width: 25%;
+	float: left;	
+}
+
+#titulos {
+	width: 50%;	
+	float: left;
+}
+
+#posterior {
+	width: 25%;
+	float: left;	
+}
+
+
+.button {
+	background-color: #990000; 
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+
+body {
+	background-image: url("../../../../images/background.jpg");
+}
+

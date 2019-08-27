@@ -1,0 +1,136 @@
+<html lang="es">
+	<head>
+		<title>Conversor de divisas</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/divisas.css" media="all"/>
+		<script type="text/javascript" src="js/divisas.js"></script>		
+	</head>
+	
+	<body>
+		<h1 align="center">Conversor de divisas - Paolo Blanco</h1>
+		<br/>
+		<br/>
+		
+		<div id="divisas" align="center">		
+			<table>				
+				<tr id="fila0">
+					<th><img src="images/costarica.png" width="50"></th>
+					<th><img src="images/estadosunidos.png" width="50"></th>
+					<th><img src="images/francia.png" width="50"></th>
+					<th><img src="images/brasil.png" width="50"></th>
+					<th><img src="images/chile.png" width="50"></th>
+					<th><img src="images/china.png" width="50"></th>
+					<th><img src="images/egipto.png" width="50"></th>
+					<th><img src="images/japon.png" width="50"></th>
+					<th><img src="images/mexico.png" width="50"></th>
+					<th><img src="images/venezuela.png" width="50"></th>
+				</tr>
+				<tr id="fila1">
+					<td>Costa Rica</td>
+					<td>Estados Unidos</td>
+					<td>Francia</td>
+					<td>Brasil</td>
+					<td>Chile</td>
+					<td>China</td>
+					<td>Egipto</td>
+					<td>Japon</td>
+					<td>Mexico</td>
+					<td>Venezuela</td>			
+				</tr>
+				<tr id="fila2">
+					<td>Colón</td>
+					<td>Dólar estadounidense</td>
+					<td>Euro</td>
+					<td>Real brasileño</td>
+					<td>Peso chileno</td>
+					<td>Yuan</td>
+					<td>Libra egipcia</td>
+					<td>Yen</td>
+					<td>Peso mexicano</td>
+					<td>Bolívar</td>
+				</tr>
+				<tr id="fila3">
+					<td>CRC</td>
+					<td>USD</td>
+					<td>EUR</td>
+					<td>BRL</td>
+					<td>CLP</td>
+					<td>CNY</td>
+					<td>EGP</td>
+					<td>JPY</td>
+					<td>MXN</td>
+					<td>VES</td>
+				</tr>
+				<tr id="fila4">
+					<span class="favorite">
+						<td>
+							<input class="favorite-input" id="favorite-input-1" type="checkbox">
+							<label class="favorite-star" for="favorite-input-1"></label>
+						</td>
+						<td>
+							<input class="favorite-input" id="favorite-input-2" type="checkbox">
+							<label class="favorite-star" for="favorite-input-2"></label>
+						</td>
+						<td>
+							<input class="favorite-input" id="favorite-input-3" type="checkbox">
+							<label class="favorite-star" for="favorite-input-3"></label>
+						</td>
+						<td>
+							<input class="favorite-input" id="favorite-input-4" type="checkbox">
+							<label class="favorite-star" for="favorite-input-4"></label>
+						</td>
+						<td>
+							<input class="favorite-input" id="favorite-input-5" type="checkbox">
+							<label class="favorite-star" for="favorite-input-5"></label>
+						</td>
+						<td>
+							<input class="favorite-input" id="favorite-input-6" type="checkbox">
+							<label class="favorite-star" for="favorite-input-6"></label>
+						</td>
+						<td>
+							<input class="favorite-input" id="favorite-input-7" type="checkbox">
+							<label class="favorite-star" for="favorite-input-7"></label>
+						</td>
+						<td>
+							<input class="favorite-input" id="favorite-input-8" type="checkbox">
+							<label class="favorite-star" for="favorite-input-8"></label>
+						</td>
+						<td>
+							<input class="favorite-input" id="favorite-input-9" type="checkbox">
+							<label class="favorite-star" for="favorite-input-9"></label>
+						</td>
+						<td>
+							<input class="favorite-input" id="favorite-input-10" type="checkbox">
+							<label class="favorite-star" for="favorite-input-10"></label>
+						</td>
+					</span>
+				</tr>				
+				<tr id="fila5">
+					<td><input id="input-crc" type="number" oninput="validity.valid||(value='');" min="0"/></td>
+					<td><input id="input-usd" type="number" oninput="validity.valid||(value='');" min="0"/></td>
+					<td><input id="input-eur" type="number" oninput="validity.valid||(value='');" min="0"/></td>
+					<td><input id="input-brl" type="number" oninput="validity.valid||(value='');" min="0"/></td>
+					<td><input id="input-clp" type="number" oninput="validity.valid||(value='');" min="0"/></td>
+					<td><input id="input-cny" type="number" oninput="validity.valid||(value='');" min="0"/></td>
+					<td><input id="input-egp" type="number" oninput="validity.valid||(value='');" min="0"/></td>
+					<td><input id="input-jpy" type="number" oninput="validity.valid||(value='');" min="0"/></td>
+					<td><input id="input-mxn" type="number" oninput="validity.valid||(value='');" min="0"/></td>
+					<td><input id="input-ves" type="number" oninput="validity.valid||(value='');" min="0"/></td>
+				</tr>						
+				<tr id="botones">
+					<th></th><th></th><th></th><th></th>
+					<th><img src="images/convertir.png" width="50" class="button" onclick=""></th>
+					<th><img src="images/limpiar.png" width="50" class="button" onclick=""></th>
+					<th></th><th></th><th></th><th></th>
+				</tr>
+				<tr id="botonesLabels">
+					<th></th><th></th><th></th><th></th>	
+					<th>Convertir</th>
+					<th>Limpiar</th>
+					<th></th><th></th><th></th><th></th>
+				</tr>
+			</div>
+			
+		</div>	
+	</body>
+</html>
