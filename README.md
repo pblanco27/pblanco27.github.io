@@ -3,5 +3,5 @@
 
 Portafolio para la Electiva de Desarrollo Web.
 
-Estudiante: Paolo Blanco Núñez.
+Estudiante: Paolo Blanco Núñez.\
 Carné: 2016185648.
