@@ -1,5 +1,4 @@
 # pblanco27.github.io
-^^ Link a la página ^^
 
 Portafolio para la Electiva de Desarrollo Web.
 
